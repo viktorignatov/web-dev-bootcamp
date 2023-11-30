@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #4f8eb2 underline wavy;
+    letter-spacing: 15px;
+    font-size: 75px;
+    font-family: Andale Mono, Courier New ;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
