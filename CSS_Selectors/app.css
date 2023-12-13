@@ -3,99 +3,99 @@
 } */
 
 body {
-    background-color: #8d99ae;
+  background-color: #8d99ae;
 }
 
 /* Element selector */
 button {
-    font-size: 50px;
-    background-color: #edf2f4;
+  font-size: 50px;
+  background-color: #edf2f4;
 }
 
 /* Selector list */
-h1, h2 {
-    color: #2b2d42;
+h1,
+h2 {
+  color: #2b2d42;
 }
 
 /* ID selector */
 #signup {
-    background-color: #2b2d42;
-    color: #edf2f4;
+  background-color: #2b2d42;
+  color: #edf2f4;
 }
 
 /* Element selector */
 span {
-    color: #d90429;
+  color: #d90429;
 }
 
 /* Class selector */
 .tag {
-    background-color: #2b2d42;
-    color: #edf2f4;
-    font-size: 16px;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  font-size: 16px;
 }
 
 /* Descendant selector */
 footer a {
-    color: #ef233c;
+  color: #ef233c;
 }
 
 /* Descendant selector */
 .post a {
-    color: #d90429;
-    text-decoration: none;
+  color: #d90429;
+  text-decoration: none;
 }
 
 /* Adjacent selector(Combinator) */
 h2 + button {
-    font-size: 20px;
-    background-color: #ef233c;
+  font-size: 20px;
+  background-color: #ef233c;
 }
 
 /* Direct child selector */
 footer > a {
-    color: #2b2d42;
+  color: #2b2d42;
 }
 
 /* Attribute selector */
 input[type="password"] {
-    color: #d90429;
+  color: #d90429;
 }
 
 /* Pseudo-class :hover */
 .post button:hover {
-    background-color: #edf2f4;
-    color: #ef233c;
+  background-color: #edf2f4;
+  color: #ef233c;
 }
 
-
 .post a:hover {
-    font-weight: 700;
-    text-decoration: underline;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 /* Pseudo-class :active */
 .post button:active {
-    background-color: #2b2d42;
-    color: #edf2f4;
+  background-color: #2b2d42;
+  color: #edf2f4;
 }
 
 /* Pseido class nth-of-type() */
 .post:nth-of-type(2n) {
-    background-color: #6c798c;
+  background-color: #6c798c;
 }
 
 /* Pseudo-element ::first-letter. Could be typed in :first-letter at least in Chrome */
 h2::first-letter {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 p::first-line {
-    color: #ef233c;
+  color: #ef233c;
 }
 
 /* Selection pseudo-element */
 p::selection {
-    background-color: #2b2d42;
-    color: #edf2f4;
+  background-color: #2b2d42;
+  color: #edf2f4;
 }
