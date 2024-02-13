@@ -1,0 +1,15 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    /* This is done WITHOUT Flexbox! */
+}
+
+nav {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+    text-transform: uppercase;
+    border-bottom: 0.1em solid #f1f1f1f1;
+}
